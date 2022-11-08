@@ -65,7 +65,6 @@
 
     <main class="contenedor sombras">
       <h2>Mis servicios</h2>
-
       <div class="servicios">
         <section class="servicio">
           <h3>Diseño Web</h3>
@@ -177,42 +176,56 @@
         </section>
       </div>
       <!-- .servicios-->
+
+      <section>
+        <h2>Contacto</h2>
+        <form class="formulario">
+          <!-- cojunto de campos -->
+          <fieldset>
+            <legend>Contactános llenando todos los campos</legend>
+
+            <div class="contenedor-campos">
+              <div class="campo">
+                <label for="">Nombre</label>
+                <input class="input-text" type="text" placeholder="nombre" />
+              </div>
+
+              <div class="campo">
+                <label for="">Teléfono</label>
+                <input
+                  class="input-text"
+                  type="tel"
+                  placeholder="Tu teléfono"
+                />
+              </div>
+
+              <div class="campo">
+                <label for="Correo">Correo</label>
+                <input class="input-text" type="email" placeholder="tu email" />
+              </div>
+
+              <div class="campo">
+                <label for="">Mensaje</label>
+                <textarea
+                  class="input-text"
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+            </div>
+            <!--contendor-campos-->
+
+            <div class="alinear-derecha flex">
+              <input class="boton w-sm-100" type="submit" value="Enviar" />
+            </div>
+          </fieldset>
+        </form>
+      </section>
     </main>
 
-    <section>
-      <h2>Contacto</h2>
-      <form action="">
-        <!-- cojunto de campos -->
-        <fieldset>
-          <legend>Contactános llenando todos los campos</legend>
-          <div>
-            <label for="">Nombre</label>
-            <input type="text" placeholder="nombre" />
-          </div>
-
-          <div>
-            <label for="">Teléfono</label>
-            <input type="tel" placeholder="Tu teléfono" />
-          </div>
-
-          <div>
-            <label for="Correo">Correo</label>
-            <input type="email" placeholder="tu email" />
-          </div>
-
-          <div>
-            <label for="">Mensaje</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-          </div>
-
-          <div>
-            <input type="submit" value="Enviar" />
-          </div>
-        </fieldset>
-      </form>
-    </section>
-
-    <footer>
+    <footer class="footer">
       <p>Todos los derechos reservados. Jorge L. Monzón</p>
     </footer>
   </body>
